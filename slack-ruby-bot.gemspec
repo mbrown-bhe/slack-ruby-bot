@@ -2,16 +2,16 @@ $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 require 'slack-ruby-bot/version'
 
 Gem::Specification.new do |s|
-  s.name = 'slack-ruby-bot'
+  s.name = 'slack-ruby-bot-bhe'
   s.version = SlackRubyBot::VERSION
-  s.authors = ['Daniel Doubrovkine']
-  s.email = 'dblock@dblock.org'
+  s.authors = ['Matthew Brown']
+  s.email = 'mbrown@bhei.com'
   s.platform = Gem::Platform::RUBY
   s.required_rubygems_version = '>= 1.3.6'
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- spec/*`.split("\n")
   s.require_paths = ['lib']
-  s.homepage = 'http://github.com/dblock/slack-ruby-bot'
+  s.homepage = 'http://github.com/mbrown-bhe/slack-ruby-bot'
   s.licenses = ['MIT']
   s.summary = 'The easiest way to write a Slack bot in Ruby.'
   s.add_dependency 'hashie'
